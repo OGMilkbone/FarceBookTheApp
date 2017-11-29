@@ -12,6 +12,13 @@
 		10E035C31FBBA16100BF9E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E035C11FBBA16100BF9E7A /* Main.storyboard */; };
 		10E035C51FBBA16100BF9E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E035C41FBBA16100BF9E7A /* Assets.xcassets */; };
 		10E035C81FBBA16100BF9E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E035C61FBBA16100BF9E7A /* LaunchScreen.storyboard */; };
+		10E035D21FBBA1D500BF9E7A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E035D11FBBA1D500BF9E7A /* Network.swift */; };
+		10E035D41FBBA7FA00BF9E7A /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E035D31FBBA7FA00BF9E7A /* MessageViewController.swift */; };
+		10E035D61FBBA9B400BF9E7A /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E035D51FBBA9B400BF9E7A /* MessageCell.swift */; };
+		10E035D81FBBABED00BF9E7A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E035D71FBBABED00BF9E7A /* Login.swift */; };
+		10E035DA1FBBABFD00BF9E7A /* Id.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E035D91FBBABFD00BF9E7A /* Id.swift */; };
+		10E035DC1FBBAC0C00BF9E7A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E035DB1FBBAC0C00BF9E7A /* Message.swift */; };
+		10E035DE1FBBAC1A00BF9E7A /* DirectMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E035DD1FBBAC1A00BF9E7A /* DirectMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		10E035C41FBBA16100BF9E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10E035C71FBBA16100BF9E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10E035C91FBBA16100BF9E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E035D11FBBA1D500BF9E7A /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		10E035D31FBBA7FA00BF9E7A /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		10E035D51FBBA9B400BF9E7A /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		10E035D71FBBABED00BF9E7A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		10E035D91FBBABFD00BF9E7A /* Id.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Id.swift; sourceTree = "<group>"; };
+		10E035DB1FBBAC0C00BF9E7A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		10E035DD1FBBAC1A00BF9E7A /* DirectMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 				10E035C41FBBA16100BF9E7A /* Assets.xcassets */,
 				10E035C61FBBA16100BF9E7A /* LaunchScreen.storyboard */,
 				10E035C91FBBA16100BF9E7A /* Info.plist */,
+				10E035D11FBBA1D500BF9E7A /* Network.swift */,
+				10E035D31FBBA7FA00BF9E7A /* MessageViewController.swift */,
+				10E035D51FBBA9B400BF9E7A /* MessageCell.swift */,
+				10E035D71FBBABED00BF9E7A /* Login.swift */,
+				10E035D91FBBABFD00BF9E7A /* Id.swift */,
+				10E035DB1FBBAC0C00BF9E7A /* Message.swift */,
+				10E035DD1FBBAC1A00BF9E7A /* DirectMessage.swift */,
 			);
 			path = FarceBookTheApp;
 			sourceTree = "<group>";
@@ -137,7 +158,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				10E035C01FBBA16000BF9E7A /* ViewController.swift in Sources */,
+				10E035D61FBBA9B400BF9E7A /* MessageCell.swift in Sources */,
 				10E035BE1FBBA16000BF9E7A /* AppDelegate.swift in Sources */,
+				10E035D81FBBABED00BF9E7A /* Login.swift in Sources */,
+				10E035D41FBBA7FA00BF9E7A /* MessageViewController.swift in Sources */,
+				10E035DC1FBBAC0C00BF9E7A /* Message.swift in Sources */,
+				10E035DE1FBBAC1A00BF9E7A /* DirectMessage.swift in Sources */,
+				10E035DA1FBBABFD00BF9E7A /* Id.swift in Sources */,
+				10E035D21FBBA1D500BF9E7A /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
